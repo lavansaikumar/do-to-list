@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+/* To-Do List Styling */
+.task-input {
+  display: flex;
+  gap: 10px;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+#taskList li {
+  background: #f9f9f9;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#taskList li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+#taskList button {
+  margin-left: 5px;
+  background: #28a745;
+}
+
+#taskList button.delete {
+  background: #dc3545;
+}
